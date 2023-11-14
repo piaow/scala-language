@@ -25,6 +25,7 @@ object InAndOut {
   out.println("test")
   out.println("scala")
   out.println("out")
+  out.println("123")
 
   out.close()
 }
