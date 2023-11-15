@@ -1,7 +1,7 @@
 package inandout
 
 import java.io.PrintWriter
-import scala.io.{BufferedSource, Source}
+import scala.io.{BufferedSource, Source, StdIn}
 
 object InAndOut {
 
@@ -18,14 +18,22 @@ object InAndOut {
 //      println(strings.next())
 //    }
 //    source.close()
+
+
+    //  // 输出到文件
+    //  val out = new PrintWriter("D:\\Spark\\scala\\study_demo\\maven-scala\\scala-language\\dataout")
+    //  out.println("test")
+    //  out.println("scala")
+    //  out.println("out")
+    //  out.println("123")
+    //
+    //  out.close()
+
+
+
   }
 
-  // 输出到文件
-  val out = new PrintWriter("D:\\Spark\\scala\\study_demo\\maven-scala\\scala-language\\dataout")
-  out.println("test")
-  out.println("scala")
-  out.println("out")
-  out.println("123")
 
-  out.close()
+
+
 }
